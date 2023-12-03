@@ -1,0 +1,80 @@
+:root{
+    --corPrimaria:#DDE3CA;
+    --corDeFundo:#7C8071;
+}
+
+body{
+    background-color: #B2D9F7 !important;
+}
+
+.cabecalho{
+    color: var(--corPrimaria);
+    background-color: var(--corDeFundo);
+    padding: 1em;
+}
+
+.secao_usuario{
+    color: black;
+}
+
+.conta_usuario{
+    color:black;
+}
+
+.emprestimo_valor{
+    color: #FF0000;
+    font-size: 32px;
+}
+
+.emprestimo_titulo{
+    font-size: 36px;
+}
+
+.investimento_valor{
+    color: green;
+    font-size: 32px;
+}
+
+.investimento_titulo{
+    font-size: 36px;
+}
+
+.rodape{
+    background-color: var(--corDeFundo);
+    padding: 1em;
+}
+
+.link_rodape{
+    color: var(--corPrimaria);
+}
+
+@media(min-width:600px){
+    .cabecalho{
+        padding: 1em;
+        font-size: 48px;
+    }
+    .secao_usuario{
+        margin: 4em 0;
+        padding-top: 2em;
+        font-size: 24px;
+    }
+    .transacoes{
+        display: flex;
+        justify-content: space-around;
+    }
+    .rodape{
+        margin-top: 2em;
+        padding: 2em;
+    }
+    .link_rodape{
+        font-size: 24px;
+        margin: 0em 3em;
+    }
+}
+
+@media(min-width:1000px){
+    .transacoes{
+        background-color: var(--corDeFundo);
+        margin: 3em;
+    }
+}
